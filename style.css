@@ -1,0 +1,420 @@
+/* Este repositório base foi criado para te ajudar caso você não saiba como começar. Lembre-se de que o portfólio é a sua carta de apresentação e você deve dar a sua cara. Por isso, convidamos você a personalizá-lo de acordo com o seu estilo e preferências; não se limite apenas ao layout proposto no Figma. */
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-fundo-menu: #ffffff;
+    --cor-do-link: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none; /* Remove qualquer linha no texto */
+
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+    a {
+       
+        color: var(--cor-do-link);
+        text-decoration: none;
+        
+    }
+
+/* ------------------------------ Seção Menu -------------------------------*/
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--cor-de-fundo-menu);
+}
+
+.cabecalho__logo {
+    max-width: 80px; /* Ajuste para telas pequenas */
+}
+
+.cabecalho__titulo {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.navegacao__lista {
+    display: none;
+    font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+text-align: left;
+
+}
+
+.navegacao__elemento a {
+    font-size: 0.9rem;
+}
+/* ------------------------------ Seção Apresentação ------------------------------*/
+.apresentacao{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1,136px;
+    height:368ppx;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    background-color: rgba(245, 245, 245, 1);
+    ;
+
+}
+
+
+.apresentacao .apresentacao__conteiner{
+    padding:15px;
+     align-items: center;
+      flex-direction: column;   
+   
+}
+
+
+.apresentacao__conteiner h2{
+    font-family: Raleway;
+font-size: 52px;
+font-weight: 700;
+text-align: left;
+
+
+}
+
+
+.apresentacao__conteiner p{
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    
+
+}
+.redes{ 
+    display: flex;
+    gap:40px; 
+}
+ .redes__elemento{
+    align-items: center;
+    flex-direction: row;  
+
+}
+
+.apresentacao__foto{
+height: 15rem;
+width: 15rem;
+border-radius: 50%;
+}
+
+/* ------------------------------ Seção Sobre mim ----------------------------------*/
+.sobre-mim{
+    background: rgba(234, 242, 253, 1);
+    padding: 20px;
+
+}
+
+/*------------------------------ Seção de Habilidades ------------------------------*/
+.habilidades{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(245, 245, 245, 1);
+     
+
+}
+
+.habilidades__titulo{
+    align-items: center;
+   
+}
+
+
+.habilidades .habilidades__lista{
+ 
+    display: flex;
+    gap:40px; 
+}
+ .habilidades__elemento{
+    border:3px solid #fff;
+    border-color: #fff;
+       cursor: pointer;
+    width:166px;
+    height: 154px;
+    gap: 16px;
+    opacity: 0px;
+   align-content: end;
+    background-color: #fff;
+    
+    
+}
+.hobbies__titulo{
+
+    align-items: center;
+}
+
+
+.habilidades__elemento p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+  
+    text-align: left;
+       
+}
+
+    /*------------------------------ Seção de Hobbies --------------------------------*/
+    .hobbies{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        background: rgba(245, 245, 245, 1);
+    }
+
+
+   .hobbies__titulo{
+
+    align-items: center;
+   }
+
+
+   .hobbies .hobbies__lista{
+     display: flex;
+    gap:40px; 
+}
+.hobbies__elemento{
+    border:3px solid #fff;
+    border-color: #fff;
+       cursor: pointer;
+    width:166px;
+    height: 154px;
+    gap: 16px;
+    opacity: 0px;
+   align-content: end;
+    background-color: #fff;
+}
+    
+    
+
+/*------------------------------ Seção de formação --------------------------------*/
+.formacao{
+    background: rgba(234, 242, 253, 1);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+      gap: 32px;
+    opacity: 0px;
+
+
+}
+.formacao__icone{
+    border:3px solid #f7d1d1;
+    border-color: #fff;
+    background-color: #ffffff;
+    width: 140px;
+    height: 70px;
+    align-items: center;
+    padding: 100px;
+    
+
+}
+
+.formacao .formacao__lista{   
+width: 136pxpx;
+height:  347x;
+gap: 16px;
+opacity: 0px;
+ display: flex;
+}
+
+.formacao__icone .formacao__elemento{
+    
+    border-color: #fff;
+       cursor: pointer;
+       
+      align-items: center;
+       gap: 10px;
+       opacity: 0px;
+       
+   align-content: center;
+    background-color: #fff;
+}
+
+/*------------------------------ Seção de projetos ---------------------------------*/
+.projetos {
+    background:rgba(245, 245, 245, 1);
+    display:flex;
+    
+    flex-direction: column;
+   
+    opacity: 0px;
+}
+.projetos .projetos__titulo{
+     flex-direction: column; 
+     justify-content:center;
+}
+
+.projetos .projetos__conteiner{
+   display: flex;
+    flex-direction: row; 
+    justify-content:left;
+    gap:55px;
+    padding:  40px;
+}
+ .projetos__conteiner .descricao{
+   
+    flex-direction: column;
+      justify-content:space-between ;
+        text-align: center;
+} 
+
+
+.projetos__conteiner .projetos__icone {
+    width: 572px;
+    height: 426px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    flex-direction: row;
+}
+
+.links_projetos{
+ font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+color:#fff;
+background: rgba(42, 122, 228, 1);
+border:3px solid #fff;
+padding: 10px 10px 10px 10px;
+cursor: pointer;
+}
+
+
+.links_projetos_azul{
+    font-family: Raleway;
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+   color:rgba(42, 122, 228, 1);
+   background:rgba(245, 245, 245, 1);
+   border:1px solid rgba(42, 122, 228, 1);
+   padding: 10px 10px 10px 10px;
+   cursor: pointer;
+     
+   }
+
+   .projetos .projetos__conteiner2{
+    display: flex;
+     flex-direction: row; 
+     justify-content:right;
+     gap:55px;
+     padding:  40px;
+ }
+
+
+
+ 
+ .projetos__conteiner2 .projetos__icone2 {
+    width: 572px;
+    height: 426px;
+    justify-content:right;
+  padding: 20px;
+    gap: 10px;
+    opacity: 0px;
+   
+}
+
+/*------------------------------ Seção de contato ---------------------------------*/
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+.icone{
+    
+    padding: 20px;
+    width: 464px;
+    height: 293px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.formulario{
+flex-direction: column;
+}
+.contato__botao{
+cursor: pointer;
+}
+
+
+
+/* ------------------------------ Seção footer -------------------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   background: rgba(234, 242, 253, 1);
+}
+
+.footer{
+    max-width: 80px; /* Ajuste para telas pequenas */
+}
+
+
+/* ------------------------------ Responsividade ---------------------------------------*/
+
+/* Tablets e telas maiores */
+@media (min-width: 768px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho__logo {
+        max-width: 100px;
+    }
+
+    .cabecalho__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacao__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacao__elemento a {
+        font-size: 1rem;
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1024px) {
+    /* Aqui você pode ajustar ainda mais o design para telas grandes */
+    .cabecalho__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacao__elemento a {
+        font-size: 1.1rem;
+    }
+}
